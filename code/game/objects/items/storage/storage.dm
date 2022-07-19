@@ -11,7 +11,7 @@
 /obj/item/storage/Initialize(mapload)
 	. = ..()
 
-	create_storage()
+	create_storage(max_specific_storage = WEIGHT_CLASS_SMALL)
 	
 	PopulateContents()
 	
